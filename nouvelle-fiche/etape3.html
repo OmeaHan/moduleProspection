@@ -30,22 +30,16 @@
       </div>
     </div>
     <div class="main-content">
-      <h1 style="text-align: left">Devoir de conseil</h1>
+      <h1 style="text-align: left">Recueil de besoins</h1>
       <form action="#" method="POST">
         <!-- Budget mensuel -->
         <label for="budget">Budget mensuel</label>
-        <select id="budget" name="budget">
-          <option value="">Entre 20 et 50</option>
-          <option value="">Entre 50 et 100</option>
-          <option value="">Entre 100 et 250</option>
-        </select>
+        <input type="number" id="budget" name="budget" />
 
         <!-- Ancienne compagnie -->
         <label for="tutelle">Ancienne compagnie</label>
-        <select id="tutelle" name="tutelle">
-          <option value="">Compagnie 1</option>
-          <option value="">Compagnie 2</option>
-        </select>
+        <input type="text" id="tutelle" name="tutelle" />
+        <!-- L'utilisateur peut choisir parmi une liste de compagnies. Il peut saisir le nomm d'une compagnie si la sienne ne se retrouve pas dans la liste -->
 
         <!-- Tutelle -->
         <label for="tutelle">Êtes vous sous tutelle ?</label>
