@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qualification</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="boutons-qualifs.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Qualification</h2>
+      <div class="sidebar-links">
+        <div><a href="index.html">Mes fiches</a></div>
+      </div>
+
+      <h2>Configuration</h2>
+      <div class="other-links">
+        <div><a href="fournisseurs.html">Fournisseurs de leads</a></div>
+        <div>
+          <a href="scenarios.html">Scénarios</a>
+        </div>
+        <div>
+          <a href="origine.html">Origines</a>
+        </div>
+        <div>
+          <a href="statuts.html">Statuts</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>Liste des fiches</h1>
+      <div class="div-qualifs">
+        <!-- <input type="search" name="" id="" placeholder="Rechercher" /> -->
+        <button class="boutons-qualifs">Piocher</button>
+        <button class="boutons-qualifs">Importer des prospects</button
+        ><button class="boutons-qualifs">
+          <a href="nouvelle-fiche/etape1.html">Créer une fiche</a>
+        </button>
+      </div>
+      <div class="filtres">Filtres</div>
+
+      <!--  -->
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nom du prospect</th>
+            <th>Date de création</th>
+            <th>Origine</th>
+            <th>Statut</th>
+            <th>Commentaires</th>
+            <th>Attribution</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="statut"><span>Projet à traiter</span></td>
+            <td>-</td>
+            <td>-</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Appeler</button>
+              <select name="Statut" id="">
+                <option value="">Voir</option>
+                <option value="">Statuer la fiche</option>
+                <option value="">Devis</option>
+                <option value="">Envoyer un mail</option>
+                <option value="">Modifier l'origine</option>
+                <option value="">Envoyer un SMS</option>
+                <option value="">Relancer un client</option>
+                <option value="">Supression du devis</option>
+                <option value="">Ajouter un commentaire</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Doe</td>
+            <td>-</td>
+            <td>-</td>
+            <td class="statut"><span>Projet à traiter</span></td>
+            <td>-</td>
+            <td>-</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Appeler</button>
+              <select name="Statut" id="">
+                <option value="">Voir</option>
+                <option value="">Statuer la fiche</option>
+                <option value="">Devis</option>
+                <option value="">Envoyer un mail</option>
+                <option value="">Modifier l'origine</option>
+                <option value="">Envoyer un SMS</option>
+                <option value="">Relancer un client</option>
+                <option value="">Supression du devis</option>
+                <option value="">Ajouter un commentaire</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

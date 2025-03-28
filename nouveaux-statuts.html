@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qualification</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="attribution.css" />
+    <link rel="stylesheet" href="boutons-qualifs.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Qualification</h2>
+      <div class="sidebar-links">
+        <div><a href="index.html">Mes fiches</a></div>
+      </div>
+
+      <h2>Configuration</h2>
+      <div class="other-links">
+        <div><a href="fournisseurs.html">Fournisseurs de leads</a></div>
+        <div>
+          <a href="scenarios.html">Scénarios</a>
+        </div>
+        <div>
+          <a href="origine.html">Origines</a>
+        </div>
+        <div>
+          <a href="statuts.html">Statuts</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1 style="text-align: left">Créer un nouveau statut de fiche</h1>
+      <form action="#" method="POST">
+        <!-- Statut -->
+        <label for="status">Statut (Fiche)</label>
+        <input type="text" id="status" name="status" required />
+
+        <!-- Utilisateur -->
+        <label for="active">Activer</label>
+        <select id="active" name="active" required>
+          <option value="">Oui</option>
+          <option value="">Non</option>
+        </select>
+
+        <input type="submit" value="Valider" />
+      </form>
+    </div>
+  </body>
+</html>

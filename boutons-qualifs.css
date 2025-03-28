@@ -1,0 +1,17 @@
+.div-qualifs {
+  display: flex;
+  justify-content: end;
+  gap: 2%;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.filtres {
+  margin-top: 10px;
+  height: 50px;
+  background-color: rgb(205, 205, 192);
+}

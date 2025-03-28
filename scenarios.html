@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qualification</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="boutons-qualifs.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Qualification</h2>
+      <div class="sidebar-links">
+        <div><a href="index.html">Mes fiches</a></div>
+      </div>
+
+      <h2>Configuration</h2>
+      <div class="other-links">
+        <div><a href="fournisseurs.html">Fournisseurs de leads</a></div>
+        <div>
+          <a href="scenarios.html">Scénarios</a>
+        </div>
+        <div>
+          <a href="origine.html">Origines</a>
+        </div>
+        <div>
+          <a href="statuts.html">Statuts</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1>Liste des attributions</h1>
+      <div class="div-qualifs">
+        <button class="boutons-qualifs">
+          <a href="attribution.html">Créer un scénario d'attribution</a>
+        </button>
+      </div>
+
+      <!-- Attributions -->
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Utilisateurs</th>
+            <th>Attribution automatique</th>
+            <th>Origine</th>
+            <th>Quota</th>
+            <th>Pioche</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td class="statut"><span>Activé</span></td>
+            <td>Comparateurs</td>
+            <td>10</td>
+            <td>5</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Modifier</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Doe</td>
+            <td class="statut"><span>Désactivé</span></td>
+            <td>RDV</td>
+            <td>12</td>
+            <td>7</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Modifier</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- RE ATTRIBUTIONS -->
+      <h1>Liste des reattributions</h1>
+      <div class="div-qualifs">
+        <button class="boutons-qualifs">
+          <a href="reattribution.html">Créer un scénario de réattribution</a>
+        </button>
+      </div>
+
+      <!-- Attributions -->
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Origine</th>
+            <th>Délai de réattribution</th>
+            <th>Unité de temps</th>
+            <th>Attribution</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Comparateurs</td>
+            <td>12</td>
+            <td>Minutes</td>
+            <td>John Doe</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Modifier</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>RDV</td>
+            <td>5</td>
+            <td>Jours</td>
+            <td>Jane Doe</td>
+            <td class="actions">
+              <!-- <button>Voir</button> -->
+              <button>Modifier</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
